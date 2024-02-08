@@ -1,0 +1,1 @@
+cmd_/home/pi/dev/simple_led/simple_led.ko := ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/pi/dev/simple_led/simple_led.ko /home/pi/dev/simple_led/simple_led.o /home/pi/dev/simple_led/simple_led.mod.o;  true
